@@ -1,0 +1,246 @@
+/*цвет основного текста #000000*/
+/*акцент #2196F3*/
+/*акцент #FFFFFF*/
+/*цвет вторичного текста #757575*/
+/*акцент rgba(255, 255, 255, 0.6);*/
+/*цвет фона #E5E5E5*/
+/*вторичный цвет фона #F5F4FA*/
+:root {
+  --accent-color: #2196f3;
+  --second-accent-color: #212121;
+  --accent-text-color: #757575;
+  --background-accent-color: #ffffff;
+  --background-second-color: #2f303a;
+}
+
+.menu-link.current {
+  color: var(--accent-color);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* HEADER */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.second-part-logo {
+  color: var(--second-accent-color);
+}
+
+.menu-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-accent-color);
+}
+
+.menu-link {
+  color: var(--second-accent-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.mail-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-text-color);
+}
+
+.mail-address:hover,
+.mail-address:focus {
+  color: var(--accent-color);
+}
+
+.phone-number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-text-color);
+}
+
+.phone-number:hover,
+.phone-number:focus {
+  color: var(--accent-color);
+}
+
+/* HERO */
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background-accent-color);
+}
+
+.main-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--background-accent-color);
+  font-family: inherit;
+  border: none;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.background-hero {
+  background-color: var(--background-second-color);
+}
+
+/* Наши преимущества */
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-accent-color);
+}
+
+.text-in-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+}
+
+/* Чем мы занимаемся */
+.headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+.name-command {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--second-accent-color);
+}
+
+.name-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+}
+
+.background-command {
+  background-color: #f5f4fa;
+}
+
+/* FOOTER */
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--background-accent-color);
+}
+
+.footer {
+  font-style: normal;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.second-part-logo-footer {
+  color: var(--background-accent-color);
+}
+
+.background-footer {
+  background-color: var(--background-second-color);
+}
+
+/* PORTFOLIO */
+/* Навигация */
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000;
+  border: none;
+  font-family: inherit;
+}
+
+.current-portfolio {
+  background-color: var(--accent-color);
+  color: var(--background-accent-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(background-color);
+  background: var(--accent-color);
+  cursor: pointer;
+}
+
+.description-work {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: var(--second-accent-color);
+}
+.task-types {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+}
