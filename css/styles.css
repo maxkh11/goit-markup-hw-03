@@ -13,13 +13,24 @@
   --background-second-color: #2f303a;
 }
 
-.menu-link.current {
-  color: var(--accent-color);
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
 }
 
 .list {
@@ -30,27 +41,70 @@ body {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu-link.current {
+  color: var(--accent-color);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
 /* HEADER */
+.page-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  margin-right: 92px;
 }
 
 .second-part-logo {
   color: var(--second-accent-color);
 }
 
-.menu-item {
+.menu-item:not(:last-child) {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-accent-color);
+  margin-right: 50px;
 }
 
 .menu-link {
@@ -62,12 +116,18 @@ body {
   color: var(--accent-color);
 }
 
+.address-tel-container {
+  display: flex;
+  align-items: center;
+}
+
 .mail-address {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-text-color);
+  margin-right: 50px;
 }
 
 .mail-address:hover,
@@ -106,7 +166,6 @@ body {
   line-height: 1.88;
   /* identical to box height, or 188% */
   letter-spacing: 0.06em;
-  cursor: pointer;
   background-color: var(--accent-color);
   color: var(--background-accent-color);
   font-family: inherit;
@@ -225,7 +284,6 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(background-color);
   background: var(--accent-color);
-  cursor: pointer;
 }
 
 .description-work {
