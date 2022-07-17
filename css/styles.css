@@ -297,6 +297,7 @@ body {
   color: #000;
   border: none;
   font-family: inherit;
+  border-radius: 4px;
 }
 
 .current-portfolio {
