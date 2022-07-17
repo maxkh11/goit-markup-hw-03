@@ -24,21 +24,18 @@ p {
 
 ul,
 ol {
+  list-style: none;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   display: block;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
 }
 
 button {
@@ -46,7 +43,7 @@ button {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -67,6 +64,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
 
 .page-header-container {
   display: flex;
@@ -83,7 +81,7 @@ body {
   display: flex;
   align-items: center;
 }
-
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -150,11 +148,16 @@ body {
 
 /* HERO */
 .hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--background-second-color);
+}
+
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
-  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background-accent-color);
@@ -166,7 +169,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  /* identical to box height, or 188% */
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--background-accent-color);
@@ -180,14 +182,26 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.background-hero {
-  padding-top: 200px;
-  padding-bottom: 280px;
-  background-color: var(--background-second-color);
+/* Наши преимущества */
+.benefits {
+  padding: 94px 0;
 }
 
-/* Наши преимущества */
-.title {
+.benefits-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits-list {
+  width: 270px;
+}
+
+.benefits-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.benefits-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -200,19 +214,28 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
 }
 
 /* Чем мы занимаемся */
 .headline {
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
+.petrik {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.petrik-item:not(:last-child) {
+  margin-right: 30px;
+}
 /* Наша команда */
 .name-command {
   font-weight: 500;
