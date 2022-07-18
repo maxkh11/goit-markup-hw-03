@@ -342,13 +342,22 @@ body {
   font-family: inherit;
   border-radius: 4px;
   padding: 6px 22px;
+  margin-top: 94px;
 }
+
+.work-container {
+}
+
+.work-element {
+}
+
 /* Main */
 .container-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .current-portfolio {
   background-color: var(--accent-color);
   color: var(--background-accent-color);
