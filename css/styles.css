@@ -64,7 +64,6 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
 
 .page-header-container {
   display: flex;
@@ -77,11 +76,6 @@ body {
   align-items: center;
 }
 
-.menu {
-  display: flex;
-  align-items: center;
-}
-/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -219,24 +213,64 @@ body {
 }
 
 /* Чем мы занимаемся */
+.container-job{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 94px;
+}
+
 .headline {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
-.petrik {
+.command {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.petrik-item:not(:last-child) {
+.command-item:not(:last-child) {
   margin-right: 30px;
 }
+
 /* Наша команда */
+.background-command {
+  background-color: #f5f4fa;
+}
+
+.container-command{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 94px;
+}
+
+.headline-command {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+
+.frame {
+  width: 270px;
+  height: 368px;
+  background-color: #fff;
+}
+
 .name-command {
   font-weight: 500;
   font-size: 16px;
@@ -255,10 +289,6 @@ body {
   /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
-}
-
-.background-command {
-  background-color: #f5f4fa;
 }
 
 /* FOOTER */
