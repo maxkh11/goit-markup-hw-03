@@ -330,7 +330,14 @@ body {
 }
 
 /* PORTFOLIO */
+/* Main */
 /* Навигация */
+.container-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .portfolio-button {
   font-weight: 500;
   font-size: 16px;
@@ -344,20 +351,39 @@ body {
   padding: 6px 22px;
   margin-top: 94px;
 }
-
+/* Плиточные елементы */
 .work-container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .work-element {
+  display: inline-block;
+  flex-wrap: wrap;
 }
 
-/* Main */
-.container-buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.work-list {
+  width: 370px;
+  margin-top: 50px;
+  margin-right: 30px;
 }
 
+.work-list:nth-child(3n) {
+  margin-right: 0;
+}
+
+/* FOOTER */
+.container-footer-portfolio {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 94px;
+}
 .current-portfolio {
   background-color: var(--accent-color);
   color: var(--background-accent-color);
