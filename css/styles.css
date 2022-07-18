@@ -213,7 +213,7 @@ body {
 }
 
 /* Чем мы занимаемся */
-.container-job{
+.container-job {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -246,13 +246,18 @@ body {
   background-color: #f5f4fa;
 }
 
-.container-command{
+.container-command {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 94px;
+}
+
+.frame {
+  width: 270px;
+  background-color: #fff;
 }
 
 .headline-command {
@@ -265,12 +270,6 @@ body {
   padding-top: 94px;
 }
 
-.frame {
-  width: 270px;
-  height: 368px;
-  background-color: #fff;
-}
-
 .name-command {
   font-weight: 500;
   font-size: 16px;
@@ -279,6 +278,7 @@ body {
   /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--second-accent-color);
+  margin-top: 30px;
 }
 
 .name-position {
@@ -289,9 +289,21 @@ body {
   /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
+  margin-bottom: 30px;
 }
 
 /* FOOTER */
+.background-footer {
+  background-color: var(--background-second-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo-footer {
+  display: flex;
+  margin-top: 60px;
+}
+
 .address {
   font-style: normal;
   font-weight: 400;
@@ -300,19 +312,21 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--background-accent-color);
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 
 .footer {
   font-style: normal;
   color: rgb(255, 255, 255, 0.6);
 }
+.footer-number {
+  display: flex;
+  margin-top: 9px;
+}
 
 .second-part-logo-footer {
   color: var(--background-accent-color);
-}
-
-.background-footer {
-  background-color: var(--background-second-color);
 }
 
 /* PORTFOLIO */
@@ -321,15 +335,20 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
   color: #000;
   border: none;
   font-family: inherit;
   border-radius: 4px;
+  padding: 6px 22px;
 }
-
+/* Main */
+.container-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .current-portfolio {
   background-color: var(--accent-color);
   color: var(--background-accent-color);
