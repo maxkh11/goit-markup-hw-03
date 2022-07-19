@@ -64,38 +64,40 @@
         <button type="button" class="main-button">Заказать услугу</button>
       </section>
       <!-- Наши преимущества -->
-      <section class="container benefits">
-        <h2 hidden>Наши преимущества</h2>
-        <ul class="benefits-item">
-          <li class="benefits-list">
-            <h3 class="benefits-title">Внимание к деталям</h3>
-            <p class="text-in-title">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="benefits-list">
-            <h3 class="benefits-title">Пунктуальность</h3>
-            <p class="text-in-title">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="benefits-list">
-            <h3 class="benefits-title">Планирование</h3>
-            <p class="text-in-title">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="benefits-list">
-            <h3 class="benefits-title">Современные технологии</h3>
-            <p class="text-in-title">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+      <section class="benefits">
+        <div class="container">
+          <h2 hidden>Наши преимущества</h2>
+          <ul class="benefits-item">
+            <li class="benefits-list">
+              <h3 class="benefits-title">Внимание к деталям</h3>
+              <p class="text-in-title">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="benefits-list">
+              <h3 class="benefits-title">Пунктуальность</h3>
+              <p class="text-in-title">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="benefits-list">
+              <h3 class="benefits-title">Планирование</h3>
+              <p class="text-in-title">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="benefits-list">
+              <h3 class="benefits-title">Современные технологии</h3>
+              <p class="text-in-title">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Чем мы занимаемся -->
       <section class="container-job">
@@ -134,8 +136,10 @@
               alt="Product Designer"
               width="270"
             />
-            <h3 class="name-command command">Игорь Демьяненко</h3>
-            <p lang="en" class="name-position command">Product Designer</p>
+            <div class="section-command">
+              <h3 class="name-command command">Игорь Демьяненко</h3>
+              <p lang="en" class="name-position command">Product Designer</p>
+            </div>
           </li>
           <li class="command-item frame">
             <img
@@ -143,8 +147,10 @@
               alt="Frontend Developer"
               width="270"
             />
-            <h3 class="name-command command">Ольга Репина</h3>
-            <p lang="en" class="name-position command">Frontend Developer</p>
+            <div class="section-command">
+              <h3 class="name-command command">Ольга Репина</h3>
+              <p lang="en" class="name-position command">Frontend Developer</p>
+            </div>
           </li>
           <li class="command-item frame">
             <img
@@ -152,13 +158,17 @@
               alt="Marketing"
               width="270"
             />
-            <h3 class="name-command command">Николай Тарасов</h3>
-            <p lang="en" class="name-position command">Marketing</p>
+            <div class="section-command">
+              <h3 class="name-command command">Николай Тарасов</h3>
+              <p lang="en" class="name-position command">Marketing</p>
+            </div>
           </li>
           <li class="command-item frame">
             <img src="./images/primary/uidesigner.jpg" alt="" width="270" />
-            <h3 class="name-command command">Михаил Ермаков</h3>
-            <p lang="en" class="name-position command">UI Designer</p>
+            <div class="section-command">
+              <h3 class="name-command command">Михаил Ермаков</h3>
+              <p lang="en" class="name-position command">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
@@ -173,13 +183,15 @@
           <ul>
             <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
             <li>
-              <a class="mail-address footer" href="mailto:info@example.com"
+              <a
+                class="mail-address-portfolio footer"
+                href="mailto:info@example.com"
                 >info@example.com</a
               >
             </li>
             <li>
               <a
-                class="phone-number footer-number footer"
+                class="phone-number-portfolio footer-number footer"
                 href="tel:+380991111111"
                 >+38 099 111 11 11</a
               >
