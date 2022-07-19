@@ -246,14 +246,14 @@ body {
   background-color: #f5f4fa;
 }
 
-.container-command {
+/* .container-command {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 94px;
-}
+} */
 
 .frame {
   width: 270px;
@@ -376,14 +376,13 @@ body {
 }
 
 /* FOOTER */
-.container-footer-portfolio {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+.background-footer-portfolio {
+  background-color: var(--background-second-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin-top: 94px;
 }
+
 .current-portfolio {
   background-color: var(--accent-color);
   color: var(--background-accent-color);
