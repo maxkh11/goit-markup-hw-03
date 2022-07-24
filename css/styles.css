@@ -254,6 +254,7 @@ body {
 /* Наша команда */
 .background-command {
   background-color: #f5f4fa;
+  margin-bottom: 94px;
 }
 
 .container-command {
@@ -279,6 +280,7 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   margin-top: 94px;
+  padding-top: 94px;
 }
 
 .section-command {
