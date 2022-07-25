@@ -54,9 +54,10 @@ body {
 /* ================Общие классы================ */
 /* HEADER */
 .page-header {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  border: 1px solid #ffffff;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
+  border: 1px solid #ECECEC
+  ;
 }
 
 .container {
@@ -230,7 +231,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  margin-top: 94px;
+  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -254,7 +255,7 @@ body {
 /* Наша команда */
 .background-command {
   background-color: #f5f4fa;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .container-command {
