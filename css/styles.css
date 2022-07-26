@@ -157,6 +157,7 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--background-second-color);
+  background-size: auto auto;
 }
 
 .hero-title {
